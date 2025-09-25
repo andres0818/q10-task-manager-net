@@ -9,6 +9,7 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<IConfig, SettingRepository>();
 builder.Services.AddScoped<IConfig, EnvironmentRepository>();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -20,9 +21,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var MaxItemsPerPage = app.Configuration["MySettings.MaxItemsPerPage"];
-
-var env1 = app.Configuration["APSNETCORE_ENVIRONMENT"];
-var env2 = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+app.MapControllers();
 
 app.Run();
