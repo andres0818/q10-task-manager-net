@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10.TaskManager.Api", "Q10.TaskManager.Api.csproj", "{A18573DA-0196-F8AD-F4F3-5BCD41BAFE1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10.TaskManager.Infraestructure", "..\Q10.TaskManager.Infraestructure\Q10.TaskManager.Infraestructure.csproj", "{FE09F1B1-AA50-4917-97AB-4E9DB72C0206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A18573DA-0196-F8AD-F4F3-5BCD41BAFE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18573DA-0196-F8AD-F4F3-5BCD41BAFE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A18573DA-0196-F8AD-F4F3-5BCD41BAFE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE09F1B1-AA50-4917-97AB-4E9DB72C0206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE09F1B1-AA50-4917-97AB-4E9DB72C0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE09F1B1-AA50-4917-97AB-4E9DB72C0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE09F1B1-AA50-4917-97AB-4E9DB72C0206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
